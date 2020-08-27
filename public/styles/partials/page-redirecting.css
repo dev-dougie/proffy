@@ -1,0 +1,43 @@
+body{
+    background: var(--color-primary-lighter);
+}
+
+.container .success-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1{
+    text-align: center;
+    color: var(--color-title-in-primary);
+    font-family: Poppings;
+    font-size: 5.2rem;
+}
+
+.container p{
+    color: var(--color-line-in-white);
+    margin-top: 2.5rem
+}
+
+.container .buttons-container{
+    margin-top: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .buttons-container a{
+    margin: none;
+    background-color: var(--color-secondary);
+    border-radius: .4rem;
+    padding: 1.5rem;
+    color: var(--color-button-text);
+    font: 700 1.4rem Archivo;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container .buttons-container a:hover{
+    background-color: var(--color-secondary-dark);
+}
